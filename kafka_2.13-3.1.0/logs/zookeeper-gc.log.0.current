@@ -1,35 +1,30 @@
 OpenJDK 64-Bit Server VM (25.312-b07) for linux-amd64 JRE (1.8.0_312-b07), built on Oct 19 2021 20:51:11 by "jenkins" with gcc 7.5.0
-Memory: 4k page, physical 2032964k(132764k free), swap 1048572k(1048572k free)
+Memory: 4k page, physical 2032964k(429992k free), swap 1048572k(1031312k free)
 CommandLine flags: -XX:+ExplicitGCInvokesConcurrent -XX:GCLogFileSize=104857600 -XX:InitialHeapSize=536870912 -XX:InitiatingHeapOccupancyPercent=35 -XX:+ManagementServer -XX:MaxGCPauseMillis=20 -XX:MaxHeapSize=536870912 -XX:MaxInlineLevel=15 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseGCLogFileRotation 
-2022-01-30T21:01:14.617+0000: 1.336: [GC pause (G1 Evacuation Pause) (young), 0.0113048 secs]
-   [Parallel Time: 5.0 ms, GC Workers: 6]
-      [GC Worker Start (ms): Min: 1336.5, Avg: 1337.7, Max: 1340.1, Diff: 3.6]
-      [Ext Root Scanning (ms): Min: 0.0, Avg: 0.4, Max: 1.1, Diff: 1.1, Sum: 2.2]
+2022-01-30T21:12:42.619+0000: 0.657: [GC pause (G1 Evacuation Pause) (young), 0.0085257 secs]
+   [Parallel Time: 4.2 ms, GC Workers: 6]
+      [GC Worker Start (ms): Min: 657.6, Avg: 658.4, Max: 661.6, Diff: 3.9]
+      [Ext Root Scanning (ms): Min: 0.0, Avg: 0.4, Max: 1.1, Diff: 1.1, Sum: 2.4]
       [Update RS (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
          [Processed Buffers: Min: 0, Avg: 0.0, Max: 0, Diff: 0, Sum: 0]
       [Scan RS (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
-      [Code Root Scanning (ms): Min: 0.0, Avg: 0.1, Max: 0.3, Diff: 0.3, Sum: 0.7]
-      [Object Copy (ms): Min: 0.0, Avg: 2.2, Max: 3.7, Diff: 3.7, Sum: 13.1]
-      [Termination (ms): Min: 0.0, Avg: 0.9, Max: 1.2, Diff: 1.2, Sum: 5.5]
-         [Termination Attempts: Min: 1, Avg: 4.7, Max: 9, Diff: 8, Sum: 28]
-      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
-      [GC Worker Total (ms): Min: 1.2, Avg: 3.6, Max: 4.8, Diff: 3.6, Sum: 21.6]
-      [GC Worker End (ms): Min: 1341.2, Avg: 1341.3, Max: 1341.3, Diff: 0.1]
+      [Code Root Scanning (ms): Min: 0.0, Avg: 0.1, Max: 0.2, Diff: 0.2, Sum: 0.4]
+      [Object Copy (ms): Min: 0.0, Avg: 2.1, Max: 2.7, Diff: 2.7, Sum: 12.5]
+      [Termination (ms): Min: 0.0, Avg: 0.7, Max: 0.8, Diff: 0.8, Sum: 3.9]
+         [Termination Attempts: Min: 1, Avg: 5.8, Max: 9, Diff: 8, Sum: 35]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.1, Diff: 0.0, Sum: 0.1]
+      [GC Worker Total (ms): Min: 0.1, Avg: 3.2, Max: 4.0, Diff: 4.0, Sum: 19.4]
+      [GC Worker End (ms): Min: 661.6, Avg: 661.7, Max: 661.7, Diff: 0.0]
    [Code Root Fixup: 0.0 ms]
    [Code Root Purge: 0.0 ms]
-   [Clear CT: 1.4 ms]
-   [Other: 4.9 ms]
+   [Clear CT: 1.0 ms]
+   [Other: 3.2 ms]
       [Choose CSet: 0.0 ms]
-      [Ref Proc: 3.3 ms]
+      [Ref Proc: 1.9 ms]
       [Ref Enq: 0.0 ms]
-      [Redirty Cards: 1.2 ms]
+      [Redirty Cards: 1.1 ms]
       [Humongous Register: 0.0 ms]
       [Humongous Reclaim: 0.0 ms]
       [Free CSet: 0.1 ms]
-   [Eden: 25600.0K(25600.0K)->0.0B(21504.0K) Survivors: 0.0B->4096.0K Heap: 25600.0K(512.0M)->5479.5K(512.0M)]
- [Times: user=0.02 sys=0.00, real=0.02 secs] 
-Heap
- garbage-first heap   total 524288K, used 15719K [0x00000000e0000000, 0x00000000e0101000, 0x0000000100000000)
-  region size 1024K, 15 young (15360K), 4 survivors (4096K)
- Metaspace       used 12094K, capacity 12488K, committed 12544K, reserved 1060864K
-  class space    used 1409K, capacity 1532K, committed 1536K, reserved 1048576K
+   [Eden: 25600.0K(25600.0K)->0.0B(21504.0K) Survivors: 0.0B->4096.0K Heap: 25600.0K(512.0M)->5478.5K(512.0M)]
+ [Times: user=0.01 sys=0.01, real=0.01 secs] 
