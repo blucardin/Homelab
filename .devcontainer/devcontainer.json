@@ -40,6 +40,6 @@
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	"features": {
-		"python": "3.10"
+		"python": "3.8"
 	}
 }
