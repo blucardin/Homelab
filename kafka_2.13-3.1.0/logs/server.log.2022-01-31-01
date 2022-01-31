@@ -1,0 +1,1 @@
+[2022-01-31 01:32:57,922] INFO [GroupMetadataManager brokerId=0] Group console-consumer-59130 transitioned to Dead in generation 2 (kafka.coordinator.group.GroupMetadataManager)
